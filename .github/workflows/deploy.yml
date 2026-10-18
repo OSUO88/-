@@ -30,6 +30,8 @@ jobs:
           mkdir -p _site/assets
           cp index.html exam-content.js _site/
           cp -R assets/dog-collection _site/assets/
+          mkdir -p _site/counseling-grad-guide
+          cp counseling-grad-guide/index.html counseling-grad-guide/三校推甄讀書計畫.html _site/counseling-grad-guide/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

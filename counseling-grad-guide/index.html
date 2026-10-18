@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ef">
+  <meta name="description" content="心理諮商所考試準備指南：校系比較、考科規劃、備審面試與個人檢核清單。">
+  <title>心理諮商所｜考前準備指南</title>
+  <style>
+    :root {
+      --paper: #f6f4ef;
+      --white: #fffefa;
+      --ink: #202c2a;
+      --muted: #63716d;
+      --line: #dce3dc;
+      --green: #315f52;
+      --green-dark: #23483e;
+      --mint: #e4eee7;
+      --lavender: #eeeaf5;
+      --peach: #f6ebe3;
+      --gold: #d7aa67;
+      --serif: "Noto Serif TC", "Songti TC", "PMingLiU", Georgia, serif;
+      --sans: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 82px; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); }
+    a { color: inherit; }
+    button { font: inherit; }
+    .topbar { position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; gap: 18px; min-height: 68px; padding: 12px clamp(18px, 5vw, 72px); background: rgba(246,244,239,.93); border-bottom: 1px solid rgba(49,95,82,.12); backdrop-filter: blur(12px); }
+    .brand { display: flex; gap: 11px; align-items: center; text-decoration: none; font-weight: 700; letter-spacing: .04em; white-space: nowrap; }
+    .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50% 50% 45% 45%; color: white; background: var(--green); font-family: var(--serif); font-size: 19px; }
+    nav { display: flex; align-items: center; gap: clamp(12px, 2.5vw, 28px); }
+    nav a { color: var(--muted); text-decoration: none; font-size: 13px; }
+    nav a:hover, nav a:focus-visible { color: var(--green); text-decoration: underline; text-underline-offset: 5px; }
+    .top-button, .primary-button, .secondary-button { border: 0; border-radius: 999px; cursor: pointer; transition: transform .18s ease, background .18s ease; }
+    .top-button { color: var(--green-dark); background: var(--mint); padding: 9px 15px; font-size: 13px; white-space: nowrap; }
+    .top-button:hover, .primary-button:hover, .secondary-button:hover { transform: translateY(-2px); }
+    main { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .hero { position: relative; display: grid; grid-template-columns: 1.08fr .92fr; min-height: 520px; margin: 34px 0 82px; overflow: hidden; border-radius: 24px; background: var(--green-dark); color: #f9f7f0; }
+    .hero-copy { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; padding: clamp(32px, 7vw, 82px); }
+    .eyebrow { color: #bdd3c4; font-size: 12px; letter-spacing: .22em; font-weight: 700; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: var(--serif); font-weight: 500; }
+    h1 { max-width: 620px; margin: 18px 0; font-size: clamp(39px, 6.4vw, 73px); line-height: 1.18; letter-spacing: .025em; }
+    .hero-copy p { max-width: 510px; color: #dce8dd; font-size: 16px; line-height: 1.9; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 20px; }
+    .primary-button { padding: 13px 20px; color: var(--green-dark); background: #f4ead6; font-weight: 700; text-decoration: none; }
+    .secondary-button { padding: 12px 18px; color: white; background: transparent; border: 1px solid rgba(255,255,255,.35); text-decoration: none; }
+    .hero-art { position: relative; min-height: 360px; overflow: hidden; background: radial-gradient(ellipse at 57% 37%, #e4d5b8 0 12%, transparent 12.4%), linear-gradient(145deg, #78988a, #4d7165 55%, #294c43); }
+    .hero-art:before { content: ""; position: absolute; width: min(35vw, 360px); aspect-ratio: 1; top: 12%; left: 19%; border: 1px solid rgba(255,255,255,.26); border-radius: 50%; box-shadow: 0 0 0 36px rgba(255,255,255,.045), 0 0 0 72px rgba(255,255,255,.035); }
+    .hero-art:after { content: ""; position: absolute; width: 58%; height: 46%; bottom: -8%; left: 21%; border-radius: 50% 50% 0 0; background: linear-gradient(145deg, #e9e0cf, #bdc9b8); box-shadow: 0 -18px 50px rgba(22,52,42,.18); }
+    .sun { position: absolute; top: 23%; right: 18%; color: #fbf2d9; font: 12px var(--serif); letter-spacing: .25em; }
+    .art-note { position: absolute; z-index: 1; right: 12%; bottom: 13%; color: #37584d; font: italic 17px var(--serif); }
+    .hero-caption { position: absolute; right: 21px; bottom: 15px; z-index: 2; color: rgba(255,255,255,.76); font-size: 11px; letter-spacing: .12em; }
+    .intro-row { display: grid; grid-template-columns: .7fr 1.3fr; gap: 40px; align-items: start; margin: 0 0 78px; }
+    .section-kicker { margin-bottom: 13px; color: var(--green); font-size: 12px; letter-spacing: .2em; font-weight: 800; }
+    h2 { margin-bottom: 16px; font-size: clamp(30px, 4vw, 45px); line-height: 1.3; }
+    .intro-row p, .section-lead { color: var(--muted); line-height: 1.9; }
+    .note-box { padding: 21px 24px; border-left: 3px solid var(--gold); border-radius: 0 14px 14px 0; background: var(--white); line-height: 1.8; }
+    .note-box strong { color: var(--green-dark); }
+    .section { margin: 78px 0; }
+    .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 26px; }
+    .section-heading > div { max-width: 650px; }
+    .section-heading h2 { margin-bottom: 7px; }
+    .section-lead { margin-bottom: 0; }
+    .step-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+    .step-card { min-height: 208px; padding: 24px; border: 1px solid var(--line); border-radius: 17px; background: var(--white); }
+    .step-num { display: inline-grid; width: 37px; height: 37px; place-items: center; margin-bottom: 20px; border-radius: 12px; color: var(--green); background: var(--mint); font-family: var(--serif); font-size: 17px; }
+    .step-card h3 { margin-bottom: 8px; font-size: 20px; }
+    .step-card p { margin-bottom: 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
+    .compare-wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: 18px; }
+    .compare-card { padding: 28px; border-radius: 19px; background: var(--mint); }
+    .compare-card.alt { background: var(--lavender); }
+    .compare-card h3 { margin-bottom: 17px; font-size: 23px; }
+    .check-list, .plain-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+    .check-list li, .plain-list li { position: relative; padding-left: 27px; color: #485954; line-height: 1.75; }
+    .check-list li:before { content: "✓"; position: absolute; left: 0; top: 1px; color: var(--green); font-weight: 800; }
+    .plain-list li:before { content: "✳"; position: absolute; left: 1px; top: 2px; color: #7f7397; font-size: 13px; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--white); }
+    table { width: 100%; border-collapse: collapse; min-width: 640px; }
+    th, td { padding: 16px 19px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; line-height: 1.7; }
+    th { color: var(--green-dark); background: #edf2ed; font-size: 13px; }
+    td { color: #52615b; font-size: 14px; }
+    tr:last-child td { border-bottom: 0; }
+    .subject-note { margin: 13px 0 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+    .interview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .interview-card { padding: 26px; border-radius: 18px; background: var(--white); border: 1px solid var(--line); }
+    .interview-card h3 { font-size: 21px; }
+    .interview-card p { margin-bottom: 0; color: var(--muted); line-height: 1.85; }
+    .scenario { margin-top: 17px; padding: 16px 18px; border-radius: 12px; background: var(--peach); color: #604d40; font-size: 14px; line-height: 1.8; }
+    .timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 32px; }
+    .phase { position: relative; padding: 23px 20px 20px; border-top: 2px solid #a9c2b1; }
+    .phase:before { content: ""; position: absolute; top: -7px; left: 20px; width: 11px; height: 11px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 5px var(--paper); }
+    .phase-label { color: var(--green); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+    .phase h3 { margin: 9px 0; font-size: 18px; }
+    .phase p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+    .tracker { padding: clamp(24px, 5vw, 48px); border-radius: 22px; color: #f9f7f0; background: var(--green-dark); }
+    .tracker .section-kicker { color: #c8dccd; }
+    .tracker h2 { margin-bottom: 9px; }
+    .tracker-intro { color: #d1dfd4; line-height: 1.8; }
+    .progress-line { display: flex; justify-content: space-between; align-items: center; gap: 14px; margin: 24px 0 9px; color: #e7eee7; font-size: 13px; }
+    .progress-track { height: 8px; overflow: hidden; border-radius: 99px; background: rgba(255,255,255,.18); }
+    .progress-fill { width: 0; height: 100%; border-radius: inherit; background: #e7c58e; transition: width .3s ease; }
+    .task-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 26px; margin-top: 23px; }
+    .task { display: flex; gap: 12px; align-items: flex-start; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,.14); color: #f0f2ea; line-height: 1.65; font-size: 14px; cursor: pointer; }
+    .task input { flex: 0 0 auto; width: 18px; height: 18px; margin-top: 2px; accent-color: #e7c58e; }
+    .task:has(input:checked) span { color: #afc6b4; text-decoration: line-through; }
+    .tracker-actions { display: flex; gap: 10px; margin-top: 24px; }
+    .tracker-actions button { padding: 10px 15px; border: 1px solid rgba(255,255,255,.35); border-radius: 999px; color: white; background: transparent; cursor: pointer; }
+    .tracker-actions button:hover { background: rgba(255,255,255,.1); }
+    .resources { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .resource { display: block; padding: 20px; border: 1px solid var(--line); border-radius: 15px; background: var(--white); text-decoration: none; transition: transform .18s ease, border-color .18s ease; }
+    .resource:hover { transform: translateY(-3px); border-color: #91b19d; }
+    .resource strong { display: block; margin-bottom: 7px; color: var(--green-dark); }
+    .resource span { color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .closing { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin: 75px 0 38px; padding: 30px 34px; border-radius: 18px; background: #ece8df; }
+    .closing p { margin: 0; color: #52615b; line-height: 1.8; }
+    .footer { display: flex; justify-content: space-between; gap: 18px; padding: 22px 0 34px; border-top: 1px solid var(--line); color: #7b8780; font-size: 12px; }
+    .toast { position: fixed; right: 20px; bottom: 20px; z-index: 8; padding: 12px 17px; border-radius: 12px; color: white; background: #23483e; box-shadow: 0 10px 30px rgba(0,0,0,.15); opacity: 0; transform: translateY(10px); pointer-events: none; transition: .25s ease; }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    @media (max-width: 820px) {
+      nav a:not(:last-child) { display: none; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-art { min-height: 260px; }
+      .hero-art:before { width: 280px; left: 34%; top: 8%; }
+      .intro-row, .compare-wrap { grid-template-columns: 1fr; gap: 18px; }
+      .step-grid { grid-template-columns: repeat(2, 1fr); }
+      .timeline { grid-template-columns: repeat(2, 1fr); row-gap: 12px; }
+    }
+    @media (max-width: 560px) {
+      .topbar { padding-inline: 15px; }
+      .brand { font-size: 13px; }
+      .brand-mark { width: 30px; height: 30px; }
+      .top-button { padding: 8px 11px; font-size: 12px; }
+      main { width: min(100% - 28px, 1120px); }
+      .hero { margin: 20px 0 58px; border-radius: 18px; }
+      .hero-copy { padding: 30px 24px 36px; }
+      .hero-art { min-height: 220px; }
+      .section { margin: 58px 0; }
+      .section-heading { display: block; }
+      .step-grid, .interview-grid, .task-grid, .resources { grid-template-columns: 1fr; }
+      .step-card { min-height: unset; }
+      .timeline { grid-template-columns: 1fr; margin-left: 3px; }
+      .phase { margin-left: 8px; border-top: 0; border-left: 2px solid #a9c2b1; padding: 5px 18px 22px; }
+      .phase:before { top: 7px; left: -7px; }
+      .closing, .footer { flex-direction: column; align-items: flex-start; }
+      .closing { padding: 25px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *:before, *:after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+    @media print {
+      .topbar, .hero-actions, .tracker-actions, .toast { display: none !important; }
+      body { background: white; }
+      main { width: 100%; }
+      .hero, .tracker { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .section, .step-card, .interview-card, .resource { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="回到首頁"><span class="brand-mark" aria-hidden="true">心</span><span>諮商所考前指南</span></a>
+    <nav aria-label="主要導覽">
+      <a href="三校推甄讀書計畫.html">三校推甄計畫</a><a href="#choose">選校</a><a href="#study">考科準備</a><a href="#interview">面試</a><a href="#timeline">讀書節奏</a>
+      <button class="top-button" type="button" id="printButton">列印／存成 PDF</button>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow">COUNSELING PSYCHOLOGY · EXAM GUIDE</span>
+        <h1 id="hero-title">準備考試，<br>也準備好認識自己。</h1>
+        <p>從選校、讀書、備審到面試，把「我為什麼想走這條路」整理清楚。這份指南給你一張可行動的準備地圖。</p>
+        <div class="hero-actions"><a class="primary-button" href="#choose">開始規劃 <span aria-hidden="true">↘</span></a><a class="secondary-button" href="#checklist">打開我的檢核表</a><a class="secondary-button" href="三校推甄讀書計畫.html">三校讀書計畫 ↗</a></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="以晨光和環形線條呈現安定、反思的意象"><span class="sun">留一點空間，慢慢想清楚</span><span class="art-note">listen · reflect · grow</span></div>
+      <span class="hero-caption">一份可依校系調整的準備地圖</span>
+    </section>
+
+    <section class="intro-row" aria-labelledby="intro-title">
+      <div><p class="section-kicker">先把方向看清楚</p><h2 id="intro-title">不只是準備考科，<br>也是一次選擇。</h2></div>
+      <div><p>不同學校的招生方式、考科、資料審查和面試安排都可能不同。先理解自己想學什麼，再用每一所學校當年度公告來排讀書計畫，會比只追著「熱門考科」更踏實。</p><div class="note-box"><strong>先記住：</strong>這是通用準備指南，不代表任何特定校系的招生簡章或資格認定。報名資格、考試日期、考科和證照相關規定，請以當年度官方公告為準。</div></div>
+    </section>
+
+    <section class="section" id="choose" aria-labelledby="choose-title">
+      <div class="section-heading"><div><p class="section-kicker">01 · 選校前先比較</p><h2 id="choose-title">找適合自己的訓練環境</h2><p class="section-lead">把「想去哪裡念」拆成幾個可查、可比較的問題，避免只憑校名或單一印象決定。</p></div></div>
+      <div class="step-grid">
+        <article class="step-card"><span class="step-num">A</span><h3>看培育方向</h3><p>讀課程地圖、研究領域和實習安排，確認內容是否貼近你的興趣與期待。</p></article>
+        <article class="step-card"><span class="step-num">B</span><h3>看招生方式</h3><p>逐校記下考科、成績比重、口試或資料審查、報名資格和重要日期。</p></article>
+        <article class="step-card"><span class="step-num">C</span><h3>看實際條件</h3><p>評估地點、學費與生活成本、全職或兼職安排，以及自己能否配合訓練。</p></article>
+      </div>
+      <div class="compare-wrap" style="margin-top:18px">
+        <div class="compare-card"><h3>校系比較時可以問</h3><ul class="check-list"><li>必修和選修有哪些？是否符合我想深入的主題？</li><li>教師研究方向、實習場域和訓練方式是什麼？</li><li>招生名額、考科和甄試流程今年有沒有調整？</li><li>我需要補哪些基礎？通勤、工作或經濟安排可行嗎？</li></ul></div>
+        <div class="compare-card alt"><h3>相近名稱也要看內容</h3><ul class="plain-list"><li>諮商心理、臨床心理、輔導與諮商等名稱相近，但課程與訓練重點可能不同。</li><li>不要只用系所名稱推斷職涯或證照資格；逐項核對官方課程、招生和法規資訊。</li><li>做一張比較表，記錄「我喜歡什麼」和「我還想確認什麼」。</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section" id="study" aria-labelledby="study-title">
+      <div class="section-heading"><div><p class="section-kicker">02 · 考科與讀書方法</p><h2 id="study-title">先對準簡章，再開始讀</h2><p class="section-lead">每校考科與題型不一定一樣。以下列的是常見的準備領域示例，不是每所學校都會考。</p></div></div>
+      <div class="table-wrap"><table><thead><tr><th>準備領域（示例）</th><th>練習重點</th><th>可以怎麼做</th></tr></thead><tbody>
+        <tr><td>普通／基礎心理學</td><td>掌握核心概念、理論差異與研究證據</td><td>用自己的話解釋概念，再練習比較兩個理論。</td></tr>
+        <tr><td>諮商理論與實務</td><td>理解不同取向的觀點、目標和介入方式</td><td>整理「如何理解問題、如何工作、限制在哪裡」的對照表。</td></tr>
+        <tr><td>研究方法與統計</td><td>讀懂研究設計、變項、資料與結論限制</td><td>練習拆解研究摘要，說明結果能回答什麼、不能回答什麼。</td></tr>
+        <tr><td>心理病理與倫理</td><td>重視概念脈絡、倫理界線和不確定情境的判斷</td><td>以課本、課堂或正式教材建立架構；遇到情境題先說明思考步驟。</td></tr>
+      </tbody></table></div>
+      <p class="subject-note">準備順序建議：下載各校最新簡章 → 建立考科與日期表 → 找正式考古題或題型說明 → 依弱項分配讀書時間。考古題用來熟悉題型與時間，不代表今年會重複出題。</p>
+      <div class="step-grid" style="margin-top:20px">
+        <article class="step-card"><span class="step-num">01</span><h3>先盤點，再排課表</h3><p>試做一回題目或章節自測，分辨「不熟概念」和「不會作答」，兩種問題要用不同方式補。</p></article>
+        <article class="step-card"><span class="step-num">02</span><h3>輸出比重讀重要</h3><p>練習限時寫題、口頭說明和錯題回顧。答案要有概念、有理由，也要回到題目情境。</p></article>
+        <article class="step-card"><span class="step-num">03</span><h3>預留調整空間</h3><p>每週檢視進度，依正式公告變動、模考結果與體力調整，不用把一份計畫當成不能更改的承諾。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="documents" aria-labelledby="documents-title">
+      <div class="section-heading"><div><p class="section-kicker">03 · 備審與自我介紹</p><h2 id="documents-title">寫出真實、具體、能回應校系的內容</h2><p class="section-lead">自傳和讀書計畫的目的，是幫助審查者理解你的選擇與準備，不必把自己寫成「天生適合助人」的人。</p></div></div>
+      <div class="compare-wrap">
+        <div class="compare-card"><h3>一份有脈絡的讀書計畫</h3><ul class="check-list"><li>我為什麼對這個領域有興趣？用具體經驗說明。</li><li>我從經驗中學到什麼？有哪些盲點仍在理解？</li><li>我想在研究所補足什麼能力或知識？</li><li>為什麼申請這個校系？連結到實際課程、研究或訓練內容。</li><li>我的研究興趣是什麼？問題可否聚焦，是否有初步可行方向？</li></ul></div>
+        <div class="compare-card alt"><h3>提交前逐項確認</h3><ul class="plain-list"><li>資料格式、頁數、檔名、上傳方式和截止時間都符合公告。</li><li>履歷、經歷與佐證資料一致，不誇大角色或成果。</li><li>引用他人想法、研究或文字時，清楚標明來源。</li><li>請可信任的人讀一遍，確認內容清楚、不是只有口號。</li><li>備份最終版檔案，並保留報名與繳費完成的紀錄。</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section" id="interview" aria-labelledby="interview-title">
+      <div class="section-heading"><div><p class="section-kicker">04 · 面試與口試</p><h2 id="interview-title">不用背出完美答案，練習清楚思考</h2><p class="section-lead">面試常會追問動機、學習經驗、研究興趣或情境判斷；實際形式依各校公告為準。</p></div></div>
+      <div class="interview-grid">
+        <article class="interview-card"><h3>練習說清楚自己的選擇</h3><p>準備一分鐘自我介紹，並練習回答「為什麼是這個領域、為什麼是這個校系、你目前還需要學什麼」。答案要能連結經驗、反思和下一步。</p></article>
+        <article class="interview-card"><h3>遇到情境題先整理資訊</h3><p>如果一時沒有標準答案，可以先說明你會如何理解情境、確認風險和界線，再說明你會尋求督導或依正式程序處理。</p><div class="scenario"><strong>思考順序：</strong>釐清情境 → 找出涉及的人與可能風險 → 辨認倫理與界線 → 說明會如何查證、求助和後續追蹤。</div></article>
+        <article class="interview-card"><h3>展現反思，不必過度揭露</h3><p>可以談個人經驗帶來的學習，也可以清楚說明目前仍在整理的部分。面試不需要交代超出你舒服範圍的私密細節。</p></article>
+        <article class="interview-card"><h3>把練習做得像對話</h3><p>找同學或朋友模擬追問，練習先聽完題目、回答重點、承認不知道的部分。錄音回聽時，檢查是否具體、切題、留有思考空間。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-heading"><div><p class="section-kicker">05 · 依考期倒推</p><h2 id="timeline-title">把準備拆成幾個階段</h2><p class="section-lead">以下是可調整的節奏範例，請依公告日期、目前基礎和生活安排重新切分。</p></div></div>
+      <div class="timeline">
+        <article class="phase"><span class="phase-label">方向盤點</span><h3>先認識校系</h3><p>閱讀課程與招生資訊，列出目標校系和待確認問題。</p></article>
+        <article class="phase"><span class="phase-label">建立底子</span><h3>整理核心概念</h3><p>依實際考科安排進度，建立筆記架構並固定回顧。</p></article>
+        <article class="phase"><span class="phase-label">練習輸出</span><h3>開始模考與口說</h3><p>限時寫題、檢討錯題，準備備審內容與面試問答。</p></article>
+        <article class="phase"><span class="phase-label">考前收尾</span><h3>確認細節與休息</h3><p>查考場、證件和應試用品；複習重點並安排充足休息。</p></article>
+      </div>
+    </section>
+
+    <section class="section tracker" id="checklist" aria-labelledby="checklist-title">
+      <p class="section-kicker">MY CHECKLIST</p><h2 id="checklist-title">我的準備檢核表</h2><p class="tracker-intro">完成一項就打勾。勾選狀態會保存在這台裝置的瀏覽器，不會上傳。</p>
+      <div class="progress-line"><span id="progressText">已完成 0 / 10 項</span><span id="progressPercent">0%</span></div><div class="progress-track" role="progressbar" aria-label="準備進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="task-grid" id="taskGrid">
+        <label class="task"><input type="checkbox" data-task="schools"><span>列出想申請的校系與優先順序</span></label>
+        <label class="task"><input type="checkbox" data-task="brochures"><span>下載並核對各校當年度招生簡章</span></label>
+        <label class="task"><input type="checkbox" data-task="subjects"><span>整理考科、題型、比重與考試日期</span></label>
+        <label class="task"><input type="checkbox" data-task="baseline"><span>完成一次基礎盤點或限時練習</span></label>
+        <label class="task"><input type="checkbox" data-task="schedule"><span>排出每週讀書與回顧時段</span></label>
+        <label class="task"><input type="checkbox" data-task="documents"><span>按公告整理備審資料與檔案格式</span></label>
+        <label class="task"><input type="checkbox" data-task="story"><span>寫好申請動機與讀書計畫初稿</span></label>
+        <label class="task"><input type="checkbox" data-task="practice"><span>至少做過一次口試模擬或口頭演練</span></label>
+        <label class="task"><input type="checkbox" data-task="logistics"><span>確認報名、繳費、考場與應試用品</span></label>
+        <label class="task"><input type="checkbox" data-task="rest"><span>安排考前睡眠、休息與交通備案</span></label>
+      </div>
+      <div class="tracker-actions"><button type="button" id="resetButton">清除勾選</button><button type="button" id="printChecklist">列印檢核表</button></div>
+    </section>
+
+    <section class="section" id="resources" aria-labelledby="resources-title">
+      <div class="section-heading"><div><p class="section-kicker">官方資訊入口</p><h2 id="resources-title">重要規定，回到正式來源確認</h2><p class="section-lead">簡章和法規可能更新。請確認資訊年份、發布單位與適用對象；有疑問時直接詢問招生單位。</p></div></div>
+      <div class="resources">
+        <a class="resource" href="https://www.moex.gov.tw/" target="_blank" rel="noopener noreferrer"><strong>考選部</strong><span>查詢國家考試與心理師考試相關公告、資訊入口。</span></a>
+        <a class="resource" href="https://law.moj.gov.tw/" target="_blank" rel="noopener noreferrer"><strong>全國法規資料庫</strong><span>查詢現行法規原文及修正沿革；以最新有效條文為準。</span></a>
+        <a class="resource" href="https://www.edu.tw/" target="_blank" rel="noopener noreferrer"><strong>教育部</strong><span>教育部官方網站入口；校系招生和課程資訊請以各校公告為準。</span></a>
+      </div>
+      <div class="note-box" style="margin-top:16px"><strong>學位、訓練與證照要分開確認：</strong>錄取研究所不等於已取得執業資格。若你的目標包含心理師證照，請向招生校系與主管機關核實課程、實習、應考資格及現行規定，不要只依賴他人經驗分享。</div>
+    </section>
+
+    <section class="closing"><p><strong>最後，替自己留一點空間。</strong><br>準備的過程也可以練習覺察、求助和調整步伐。讀書計畫的目的，是支持你前進，不是用來責備自己。</p><a class="primary-button" href="#top">回到最上方 ↑</a></section>
+    <footer class="footer"><span>心理諮商所｜考前準備指南</span><span>通用資訊整理 · 校系細節請以當年度官方公告為準</span></footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      const KEY = "counseling-grad-exam-checklist-v1";
+      const checks = [...document.querySelectorAll("[data-task]")];
+      const track = document.querySelector(".progress-track");
+      const toast = document.getElementById("toast");
+      let toastTimer;
+      function say(message) {
+        toast.textContent = message;
+        toast.classList.add("show");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove("show"), 2300);
+      }
+      function update() {
+        const done = checks.filter(item => item.checked).length;
+        const percent = Math.round(done / checks.length * 100);
+        document.getElementById("progressText").textContent = `已完成 ${done} / ${checks.length} 項`;
+        document.getElementById("progressPercent").textContent = `${percent}%`;
+        document.getElementById("progressFill").style.width = `${percent}%`;
+        track.setAttribute("aria-valuenow", String(percent));
+        try { localStorage.setItem(KEY, JSON.stringify(checks.filter(item => item.checked).map(item => item.dataset.task))); } catch { /* 瀏覽器不支援本機儲存時仍可使用勾選 */ }
+      }
+      try {
+        const saved = JSON.parse(localStorage.getItem(KEY) || "[]");
+        checks.forEach(item => { item.checked = saved.includes(item.dataset.task); });
+      } catch { /* 忽略無法讀取的本機資料 */ }
+      checks.forEach(item => item.addEventListener("change", update));
+      document.getElementById("resetButton").addEventListener("click", () => {
+        checks.forEach(item => { item.checked = false; });
+        update();
+        say("檢核表已清除");
+      });
+      document.getElementById("printButton").addEventListener("click", () => window.print());
+      document.getElementById("printChecklist").addEventListener("click", () => window.print());
+      update();
+    })();
+  </script>
+</body>
+</html>
+
