@@ -1,0 +1,6 @@
+# Only keep the active site and its deployed image collection in the repository.
+/index*.html
+!/index.html
+/index.html.bak
+/assets/dog-rewards/
+/_site/
